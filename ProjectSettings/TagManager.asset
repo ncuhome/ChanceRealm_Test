@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Defaule_Tile
+    uniqueID: 313295895
+    locked: 0
+  - name: "Item\uFF06Wall_Wall"
+    uniqueID: 652033225
+    locked: 0
+  - name: "Item\uFF06Wall_Item"
+    uniqueID: 658323073
+    locked: 0
