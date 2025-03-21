@@ -15,7 +15,7 @@ D:/ChanceRealm_Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58590
+60466
 Successfully changed project path to: D:/ChanceRealm_Test
 D:/ChanceRealm_Test
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ D:/ChanceRealm_Test
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23284]  Target information:
+Player connection [33572]  Target information:
 
-Player connection [23284]  * "[IP] 192.168.13.180 [Port] 0 [Flags] 2 [Guid] 3537505800 [EditorId] 3537505800 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GI42BDV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [33572]  * "[IP] 192.168.13.180 [Port] 0 [Flags] 2 [Guid] 640587535 [EditorId] 640587535 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GI42BDV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23284] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [23284] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [33572] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33572] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
-Refreshing native plugins compatible for Editor in 84.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 287.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.53f1c1 (f16e16b78e06)
 [Subsystems] Discovering subsystems at path D:/2022.3.53f1c1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'D:/2022.3.53f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/2022.3.53f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2022.3.53f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2022.3.53f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.029145 seconds.
-- Loaded All Assemblies, in  0.672 seconds
+Registered in 0.074560 seconds.
+- Loaded All Assemblies, in  1.757 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.443 seconds
-Domain Reload Profiling: 1100ms
-	BeginReloadAssembly (235ms)
+- Finished resetting the current domain, in  0.529 seconds
+Domain Reload Profiling: 2204ms
+	BeginReloadAssembly (523ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (146ms)
-	LoadAllAssembliesAndSetupDomain (209ms)
-		LoadAssemblies (216ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (400ms)
+	LoadAllAssembliesAndSetupDomain (626ms)
+		LoadAssemblies (478ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (207ms)
-			TypeCache.Refresh (205ms)
-				TypeCache.ScanAssembly (183ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (444ms)
+		AnalyzeDomain (615ms)
+			TypeCache.Refresh (609ms)
+				TypeCache.ScanAssembly (552ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (530ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (378ms)
+		SetupLoadedEditorAssemblies (418ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (273ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,7 +118,7 @@ Domain Reload Profiling: 1100ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.929 seconds
+- Loaded All Assemblies, in  1.607 seconds
 Native extension for WindowsStandalone target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
@@ -138,47 +138,47 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.098 seconds
-Domain Reload Profiling: 3990ms
-	BeginReloadAssembly (263ms)
+- Finished resetting the current domain, in  2.240 seconds
+Domain Reload Profiling: 3805ms
+	BeginReloadAssembly (305ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (104ms)
-	LoadAllAssembliesAndSetupDomain (1463ms)
-		LoadAssemblies (1163ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (1098ms)
+		LoadAssemblies (931ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (457ms)
-			TypeCache.Refresh (358ms)
-				TypeCache.ScanAssembly (321ms)
-			ScanForSourceGeneratedMonoScriptInfo (81ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (2098ms)
+		AnalyzeDomain (361ms)
+			TypeCache.Refresh (301ms)
+				TypeCache.ScanAssembly (275ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2240ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1696ms)
+		SetupLoadedEditorAssemblies (1944ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (15ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (172ms)
-			ProcessInitializeOnLoadAttributes (1305ms)
-			ProcessInitializeOnLoadMethodAttributes (133ms)
-			AfterProcessingInitializeOnLoad (50ms)
+			BeforeProcessingInitializeOnLoad (179ms)
+			ProcessInitializeOnLoadAttributes (1593ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (40ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 31.03 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 33.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6068 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (1.1 MB). Loaded Objects now: 6538.
-Memory consumption went from 196.1 MB to 195.0 MB.
-Total: 18.620100 ms (FindLiveObjects: 0.766700 ms CreateObjectMapping: 0.566100 ms MarkObjects: 16.709700 ms  DeleteObjects: 0.576400 ms)
+Unloading 6189 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.1 MB). Loaded Objects now: 6658.
+Memory consumption went from 199.5 MB to 198.4 MB.
+Total: 19.450200 ms (FindLiveObjects: 0.751600 ms CreateObjectMapping: 0.715200 ms MarkObjects: 15.883500 ms  DeleteObjects: 2.098300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -196,1133 +196,46 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 177244.606520 seconds.
-  path: Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef
-  artifactKey: Guid(343deaaf83e0cee4ca978e7df0b80d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef using Guid(343deaaf83e0cee4ca978e7df0b80d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '0b366c54cdac5e14f0e2f1c29acd2d11') in 0.011042 seconds
+  Time since last request: 179795.466173 seconds.
+  path: Assets/Scenes/场景第一版.unity
+  artifactKey: Guid(ed93ca54852814e499a3004ae359479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/场景第一版.unity using Guid(ed93ca54852814e499a3004ae359479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'ae3bdba82fa3fd17f9b8b73a7d0c3ea6') in 0.010204 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Packages/com.unity.2d.tilemap/package.json
-  artifactKey: Guid(51797d68d3132bb419217a229e09fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/package.json using Guid(51797d68d3132bb419217a229e09fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'c2a440708a656cb09e48b04397500d34') in 0.014665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef
-  artifactKey: Guid(2bafac87e7f4b9b418d9448d219b01ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef using Guid(2bafac87e7f4b9b418d9448d219b01ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'b316665da253f20aabdf47f2228a3ded') in 0.001254 seconds
+  Time since last request: 0.000048 seconds.
+  path: Assets/Heat - Complete Modern UI/Scenes/Main Menu (Cross Platform).unity
+  artifactKey: Guid(5e02b31b040bbf5428960bf3ff9c63d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heat - Complete Modern UI/Scenes/Main Menu (Cross Platform).unity using Guid(5e02b31b040bbf5428960bf3ff9c63d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '8e2d927797afec0d5e64e19bdee9d891') in 0.001077 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.253923 seconds.
-  path: Packages/com.unity.collab-proxy/package.json
-  artifactKey: Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/package.json using Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'bb554d13e7c739430fdb00e8f8546af0') in 0.002277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.364876 seconds.
-  path: Packages/com.unity.ugui/package.json
-  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'dfddb1fa6e8d59d992e092cbe57c55d0') in 0.002168 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 59.270710 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/ShaderGraph/Includes/BuildInputData.hlsl
-  artifactKey: Guid(f1a1da3eef3aa834d9c94eb0a5c04358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/ShaderGraph/Includes/BuildInputData.hlsl using Guid(f1a1da3eef3aa834d9c94eb0a5c04358) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '59ae29016deb98946f621670fdfee06a') in 0.003193 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Generation/Templates/BuildVertexDescriptionInputs.template.hlsl
-  artifactKey: Guid(430a733c64a5c474787ac95203c2056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph/Editor/Generation/Templates/BuildVertexDescriptionInputs.template.hlsl using Guid(430a733c64a5c474787ac95203c2056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '8d89d494f94faa51b82ddc1738537d5b') in 0.002707 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Generation/Templates/BuildSurfaceDescriptionInputs.template.hlsl
-  artifactKey: Guid(d3b47ff860a51904395688d633cb1018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph/Editor/Generation/Templates/BuildSurfaceDescriptionInputs.template.hlsl using Guid(d3b47ff860a51904395688d633cb1018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '8ee9f2b19f943ae21e1a2991b6f4d9d6') in 0.003049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.897 seconds
-Native extension for WindowsStandalone target not found
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.501 seconds
-Domain Reload Profiling: 6371ms
-	BeginReloadAssembly (3965ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3620ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (772ms)
-		LoadAssemblies (883ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (74ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (45ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1502ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (928ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (664ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (36ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 22.11 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (1.1 MB). Loaded Objects now: 6666.
-Memory consumption went from 189.5 MB to 188.4 MB.
-Total: 14.243300 ms (FindLiveObjects: 0.449200 ms CreateObjectMapping: 0.424100 ms MarkObjects: 13.101100 ms  DeleteObjects: 0.267500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/LocalizedObject.cs: 10b65ff5f217bd9c71a88dcf4eb87ba8 -> 
-  custom:scripting/monoscript/fileName/SettingsElementEditor.cs: 0ff2c57aaa10ca40c74f50b3ec7344e7 -> 
-  custom:scripting/monoscript/fileName/LocalizationTableEditor.cs: 979ec107191cc6d9f219d49010ad9219 -> 
-  custom:scripting/monoscript/fileName/Dropdown.cs: acb652ea9b4b3ee4b310fe618069f680 -> e2499375dbab18b142e2db07a091d792
-  custom:scripting/monoscript/fileName/SliderInput.cs: 6196c1cf73a997e84a76729f2f18460a -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/NavigationBarEditor.cs: 1cfc75884882362440ddcedf9bfe52eb -> 
-  custom:scripting/monoscript/fileName/NotificationManagerEditor.cs: 0d18d80bdcf30b58841157c2cb71768c -> 
-  custom:scripting/monoscript/fileName/NavigationBar.cs: c65d00313fb56dac9225f25cc163177d -> 
-  custom:scripting/monoscript/fileName/Spinner.cs: 6c8f17a97326255d002c62a30e605605 -> 
-  custom:scripting/monoscript/fileName/CreditsMentionItem.cs: 94dc2905d50060491117f2d00ef5c1a6 -> 
-  custom:scripting/monoscript/fileName/SliderManagerEditor.cs: eec514bf3a329a0f847e55613bfc2e90 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/LocalizedObjectEditor.cs: 45b96b245f5b6768a3c1822d15be15da -> 
-  custom:scripting/monoscript/fileName/ButtonFrameEditor.cs: 81804e45451b7de075c8a6ed928b560b -> 
-  custom:scripting/monoscript/fileName/UIManagerText.cs: b89397a53842dec6ca9101badf70a73a -> 
-  custom:scripting/monoscript/fileName/LocalizationTable.cs: 3493df98426cf09ec29313c439834332 -> 
-  custom:scripting/monoscript/fileName/ToolsMenu.cs: 3be7d533f4fe569ebd46a81ee6ff60de -> 
-  custom:scripting/monoscript/fileName/HeatUIEditorHandler.cs: ad2cd7e85455753d7ce2e75251f90d58 -> 
-  custom:scripting/monoscript/fileName/SocialsWidgetEditor.cs: 4ba6ce97a070393069bdf4006f4fb554 -> 
-  custom:scripting/monoscript/fileName/ProgressBar.cs: 0de5faf8c1989addf9616ad55588748e -> 
-  custom:scripting/monoscript/fileName/LocalizationLanguage.cs: 9afd175b873511773ef097d4fe73ceff -> 
-  custom:scripting/monoscript/fileName/ButtonManagerEditor.cs: fa8b71bda80ad3aea55d172b3db5003e -> 
-  custom:scripting/monoscript/fileName/HUDManagerEditor.cs: 59446c9ce64a652deecddad3a2b670e5 -> 
-  custom:scripting/monoscript/fileName/UIManager.cs: 57b4f0e2fe8fe924758e9ce7b4441139 -> 
-  custom:scripting/monoscript/fileName/UISway.cs: ad14e461a7f5a2374c084d3ec74c595b -> 
-  custom:scripting/monoscript/fileName/UIManagerImageEditor.cs: e06ac88b7e7f3d9baed53c9977eb0381 -> 
-  custom:scripting/monoscript/fileName/AchievementManager.cs: 9b8be57dcbbd1886ca07b62a720b7b15 -> 
-  custom:scripting/monoscript/fileName/UIGradient.cs: a2a003d46061d07bf5377416a987b1f4 -> 
-  custom:scripting/monoscript/fileName/LocalizationSettings.cs: b24ca193853e924374afda7e148be3bd -> 
-  custom:scripting/monoscript/fileName/SelectorInputHandler.cs: 6e1e1b875ad3c378feec0852cbf8d136 -> 
-  custom:scripting/monoscript/fileName/ButtonFrame.cs: a198f07c4a01b1e64029bf5cd7184316 -> 
-  custom:scripting/monoscript/fileName/HotkeyEventEditor.cs: 7dec9f6e3a64be4684ddf7f90c7284c7 -> 
-  custom:scripting/monoscript/fileName/LaunchURL.cs: b4c840f9514b7f65be7cfb48675a9b86 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/ModalWindowManager.cs: 7155656eef55a43d1036cf69ca011c17 -> 
-  custom:scripting/monoscript/fileName/UIManagerAudio.cs: c8dd352dbf8b92515b670c64214c9f59 -> 
-  custom:scripting/monoscript/fileName/MenuManagerEditor.cs: 709fe595f8c0b4b6af817915d98e51df -> 
-  custom:scripting/monoscript/fileName/ControllerPresetManager.cs: af01163bebd062f66da2f34d4298b1b2 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/QuestItemEditor.cs: 592c886a87aa54ddd125b37176159fdc -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/InputFieldManager.cs: 6447500af24c0695dea931c55059ab6b -> 
-  custom:scripting/monoscript/fileName/UIManagerEditor.cs: 56f31aaa629358bded26d1e3950b1e2b -> 
-  custom:scripting/monoscript/fileName/CreditsManager.cs: 056066b6ca191f3111fce0b91bf6c441 -> 
-  custom:scripting/monoscript/fileName/ChapterManager.cs: b6e7f6f14aea48094a6d1f9d62dd785d -> 
-  custom:scripting/monoscript/fileName/UIManagerAudioEditor.cs: fefd857da7b16a9075b97e150b00aa33 -> 
-  custom:scripting/monoscript/fileName/ControllerManagerEditor.cs: e182c250c30fd5fb24fe63f2e1f04a0f -> 
-  custom:scripting/monoscript/fileName/TextTimeCounter.cs: 95c45b1a443300c558bec084b9888686 -> 
-  custom:scripting/monoscript/fileName/CanvasManager.cs: 932545e7bca2fc5855b6e05e14a43739 -> 
-  custom:scripting/monoscript/fileName/NewsSliderEditor.cs: 7fdcd6d70e448f998d67bfb4ba34b3d7 -> 
-  custom:scripting/monoscript/fileName/UIManagerLogoEditor.cs: 1b54259065d386b68c4e57cdf974bfdb -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/MenuManager.cs: 5d7fcbae1157a7198668b53e4ef96155 -> 0343bcd059e803f90b5a61786ef257ee
-  custom:scripting/monoscript/fileName/QuestItem.cs: 534c75ab850fa802334c5f6ff363f5e6 -> 
-  custom:scripting/monoscript/fileName/ExitGame.cs: 4be2c6fc8f39c922c8399a19d0bc98e0 -> 
-  custom:scripting/monoscript/fileName/BoxContainer.cs: f149419c1a0e9bc88883ae3cd000e920 -> 
-  custom:scripting/monoscript/fileName/SliderManager.cs: 8c72986655c3eeb8806565295eaec284 -> 
-  custom:scripting/monoscript/fileName/BoxButtonManagerEditor.cs: 1d1c10bf0d2a416034ce5a0b43d7c041 -> 
-  custom:scripting/monoscript/fileName/SwitchManager.cs: 1fdd6e1b1c4346136615fa6bca537799 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3f468b98489ad6a66ef7787b0f59ccd0 -> 
-  custom:scripting/monoscript/fileName/SwitchManagerEditor.cs: 1e03bb69e55a23b22a59a54dbef9a752 -> 
-  custom:scripting/monoscript/fileName/LocalizationSettingsEditor.cs: 713075ec7d8b3419c49d5892b87072aa -> 
-  custom:scripting/monoscript/fileName/ShopButtonManager.cs: a5ef2af49b2535ca19dfb82a0574cf50 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 040c854e89297709d24279e391499ed4 -> 
-  custom:scripting/monoscript/fileName/SettingsDescriptionManager.cs: a5d31c7f1f089a5e826c41440cb86752 -> 
-  custom:scripting/monoscript/fileName/HUDManager.cs: 5bc3ef009500e907f6597a0f78ac92b1 -> 
-  custom:scripting/monoscript/fileName/PauseMenuManagerEditor.cs: 6116202ebc09692f074a9c671d188c41 -> 
-  custom:scripting/monoscript/fileName/PanelButtonEditor.cs: c89682b44d884f5e107dfb5984b64f43 -> 
-  custom:scripting/monoscript/fileName/ControllerPreset.cs: b088ff63c7e91608a2a7c12d34ee234b -> 
-  custom:scripting/monoscript/fileName/ShopButtonManagerEditor.cs: d7e64b142a53e0bb7843d3524c1a9d04 -> 
-  custom:scripting/monoscript/fileName/UIPopup.cs: 21d861e68ed8f8959b0e7685aa079b84 -> 
-  custom:scripting/monoscript/fileName/SettingsSubElement.cs: 7ad46843ea150b5c14c5dc7ca92f6a5f -> 
-  custom:scripting/monoscript/fileName/AchievementLibrary.cs: c7d6c3bc4b32f4b12de42487e33c851c -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/LocalizationLanguageEditor.cs: 1c2c50b01d14aa83bbfbe2b2dbe2176e -> 
-  custom:scripting/monoscript/fileName/GraphicsManagerEditor.cs: 51d9c0181974a877898512b82c87d06e -> 
-  custom:scripting/monoscript/fileName/ImageFading.cs: 6d5b571ff97fa11f4ab55ba73878bcd0 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ScrollbarInputHandler.cs: 24b0c1f7fe60355f79af30fb16b5312a -> 
-  custom:scripting/monoscript/fileName/ChapterIdentifier.cs: 333f71e2d4562bbb4e82282562ad1afe -> 
-  custom:scripting/monoscript/fileName/PanelManager.cs: f7efbbbe7af316af5bf658f25608a1c8 -> 
-  custom:scripting/monoscript/fileName/InitHeatUI.cs: aa4af9d143a0a8d37e66c3297e731cad -> 
-  custom:scripting/monoscript/fileName/UIElementSound.cs: 9a9bc2177c7afbcd1869558e8a24e88f -> 
-  custom:scripting/monoscript/fileName/UIManagerTextEditor.cs: 44a40f6820d225a088725e57f7f672e8 -> 
-  custom:scripting/monoscript/fileName/HotkeyEvent.cs: 1dad8041de6fe4f2dc4c165f11cf7fd5 -> 
-  custom:scripting/monoscript/fileName/CreditsPreset.cs: fbc6669aedada1bd070e2f4f370b9823 -> 
-  custom:scripting/monoscript/fileName/AchievementItem.cs: 5e28f2f443f615a4268ed78d5cb07693 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SmoothScrollbar.cs: 5c206a3b1ccf0d887676911de656caaa -> 
-  custom:scripting/monoscript/fileName/ProgressBarEditor.cs: 988587bfab2a53535d7ef5e8c59f3cc5 -> 
-  custom:scripting/monoscript/fileName/GradientFilterEditor.cs: 5060b328c633e8433c05f587a1dec953 -> 
-  custom:scripting/monoscript/fileName/BoxContainerItem.cs: 6de7142a07d1f7384d37def58fcf7417 -> 
-  custom:scripting/monoscript/fileName/PanelManagerEditor.cs: c0d4d8b983e42040934a7bed4935a356 -> 
-  custom:scripting/monoscript/fileName/UIManagerFontChanger.cs: 3737924f1846cc42835de760186a1374 -> 
-  custom:scripting/monoscript/fileName/LayoutGroupFix.cs: 9a20dbd43da4c3173f15a697d5eea5a4 -> 
-  custom:scripting/monoscript/fileName/ShinyImage.cs: e47b248ebb59aeeeb8c5b9193c753224 -> 
-  custom:scripting/monoscript/fileName/UIManagerSplashScreen.cs: 6ca20a2abea7b8011d0af2c65c83cb34 -> 
-  custom:scripting/monoscript/fileName/GraphicsManager.cs: da3e5ee7da80c69de7248d21fe93617c -> 
-  custom:scripting/monoscript/fileName/PointerEvent.cs: f32941fefecc8782da3f7358929595dd -> 
-  custom:scripting/monoscript/fileName/UIManagerLogo.cs: 833e17669289f0fae5e9d5afd98f9843 -> 
-  custom:scripting/monoscript/fileName/PauseMenuManager.cs: ab63794b8d53df85b655ac0b7f176367 -> 
-  custom:scripting/monoscript/fileName/NotificationManager.cs: efac277e03e0ae2b368743b40584e426 -> 
-  custom:scripting/monoscript/fileName/ButtonManager.cs: c9a00a9e020a831a1408593ebc22fc2c -> 
-  custom:scripting/monoscript/fileName/SettingsElement.cs: c725e655a83f172bea923607fa50fc57 -> 
-  custom:scripting/monoscript/fileName/BoxButtonManager.cs: 4222d53452d9826486d96ed1ee93f551 -> 
-  custom:scripting/monoscript/fileName/ControllerManager.cs: d2dd4dec31a84ea69aa56fcb4a3fbb05 -> 
-  custom:scripting/monoscript/fileName/PanelButton.cs: 4a77765aa1702c5e59b62ab2873617ce -> 
-  custom:scripting/monoscript/fileName/CanvasGroupAnimator.cs: cc0222ac3b1b8d4a433fcdf364099a97 -> 
-  custom:scripting/monoscript/fileName/SettingsDescription.cs: 41293d727383a5d34a331924ceb3f64f -> 
-  custom:scripting/monoscript/fileName/LocalizationTableWindow.cs: 692dd1d5bc4a28a8838e448d605f0502 -> 
-  custom:scripting/monoscript/fileName/SliderInputHandler.cs: a636d65b39c5f96db620f620f362264c -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/InputNavigationLimiter.cs: c698113da9e23bdb33b25b1275a06233 -> 
-  custom:scripting/monoscript/fileName/HorizontalSelector.cs: 0687add2f0cba6450ac52801b231f092 -> 
-  custom:scripting/monoscript/fileName/ChapterManagerEditor.cs: ae485f977069f2fdbc106e5c8684fa09 -> 
-  custom:scripting/monoscript/fileName/HeatUIInternalTools.cs: 914d637e44f4f1fe206bfbfd79b98dbf -> 
-  custom:scripting/monoscript/fileName/UIManagerImage.cs: 1f39b60d3094e0d3be937b2f1293a55d -> 
-  custom:scripting/monoscript/fileName/UIGradientEditor.cs: 1fd6b39e442b2f8ee1dce83522163027 -> 
-  custom:scripting/monoscript/fileName/AchievementManagerEditor.cs: feb8ba604a374667d296573168904551 -> 
-  custom:scripting/monoscript/fileName/LocalizationManager.cs: 535d74d262864bf03f84bbd9a9add9f9 -> 
-  custom:scripting/monoscript/fileName/ModalWindowManagerEditor.cs: 537ac526a6fdc1477c84188ec414538d -> 
-  custom:scripting/monoscript/fileName/SocialsWidget.cs: 85e4a1b8c2022cbf5cb5c8bdb1a0a723 -> 
-  custom:scripting/monoscript/fileName/CreditsSectionItem.cs: cd1b6298ce9f4332d141900eb288a2e5 -> 
-  custom:scripting/monoscript/fileName/CreditsManagerEditor.cs: f4ddd7e4e3aa215ae67d5f54699be125 -> 
-  custom:scripting/monoscript/fileName/GradientFilter.cs: e93bdfe8c486db8a9c376d2a6ccf5d29 -> 
-  custom:scripting/monoscript/fileName/RectDepth.cs: 90f1f304ae0845c95ed4505fcb5c59c8 -> 
-  custom:scripting/monoscript/fileName/NewsSlider.cs: ba9abc68b9026f91149d1a3ef02584cf -> 
-  custom:scripting/monoscript/fileName/LocalizationManagerEditor.cs: c56a943eee43796c116df53b004a50f4 -> 
-  custom:scripting/monoscript/fileName/DropdownEditor.cs: 04dacfcb3abd62739e18c293699d7cb0 -> 7835943c2b1e7ab14674862cb91ce165
-  custom:scripting/monoscript/fileName/HorizontalSelectorEditor.cs: f9c65442da6e8b2f6cc5dc6ff736a86f -> 
-  custom:scripting/monoscript/fileName/UIManagerColorChanger.cs: d9bc0b320551158391f163a4a8e7b1d2 -> 
-  custom:scripting/monoscript/fileName/ImagePulse.cs: 36cfea2e320d6e0bded6dfc5517c0467 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 183.881040 seconds.
-  path: Assets/Heat - Complete Modern UI/Scenes
-  artifactKey: Guid(49630189d589b17449dd488f245c5ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Heat - Complete Modern UI/Scenes using Guid(49630189d589b17449dd488f245c5ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '0140a796783fca8e3c378658a4f3e973') in 0.002917 seconds
+  path: Assets/Scenes/网格导航.unity
+  artifactKey: Guid(436e5f8d88e12c24a9c56c1a4b6d1ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/网格导航.unity using Guid(436e5f8d88e12c24a9c56c1a4b6d1ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: '638775fb90391f570b0d8fe4fbca04a3') in 0.000919 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.512028 seconds.
-  path: Assets/Heat - Complete Modern UI/Scenes/In-Game (Console).unity
-  artifactKey: Guid(0d39e9dd9923deb4c91660e7a4d80c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Heat - Complete Modern UI/Scenes/In-Game (Console).unity using Guid(0d39e9dd9923deb4c91660e7a4d80c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: '90b40a0f47e34bceb588583be8be07ad') in 0.000995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.907 seconds
-Native extension for WindowsStandalone target not found
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.987 seconds
-Domain Reload Profiling: 5864ms
-	BeginReloadAssembly (278ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (473ms)
-		LoadAssemblies (587ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (4988ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1103ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (156ms)
-			ProcessInitializeOnLoadAttributes (779ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
-			AfterProcessingInitializeOnLoad (46ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 36.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (1.1 MB). Loaded Objects now: 6671.
-Memory consumption went from 189.5 MB to 188.4 MB.
-Total: 15.969500 ms (FindLiveObjects: 0.689200 ms CreateObjectMapping: 0.926300 ms MarkObjects: 14.093200 ms  DeleteObjects: 0.259300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/LocalizedObject.cs: 10b65ff5f217bd9c71a88dcf4eb87ba8 -> 
-  custom:scripting/monoscript/fileName/SettingsElementEditor.cs: 0ff2c57aaa10ca40c74f50b3ec7344e7 -> 
-  custom:scripting/monoscript/fileName/LocalizationTableEditor.cs: 979ec107191cc6d9f219d49010ad9219 -> 
-  custom:scripting/monoscript/fileName/Dropdown.cs: acb652ea9b4b3ee4b310fe618069f680 -> e2499375dbab18b142e2db07a091d792
-  custom:scripting/monoscript/fileName/SliderInput.cs: 6196c1cf73a997e84a76729f2f18460a -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/NavigationBarEditor.cs: 1cfc75884882362440ddcedf9bfe52eb -> 
-  custom:scripting/monoscript/fileName/NotificationManagerEditor.cs: 0d18d80bdcf30b58841157c2cb71768c -> 
-  custom:scripting/monoscript/fileName/NavigationBar.cs: c65d00313fb56dac9225f25cc163177d -> 
-  custom:scripting/monoscript/fileName/Spinner.cs: 6c8f17a97326255d002c62a30e605605 -> 
-  custom:scripting/monoscript/fileName/CreditsMentionItem.cs: 94dc2905d50060491117f2d00ef5c1a6 -> 
-  custom:scripting/monoscript/fileName/SliderManagerEditor.cs: eec514bf3a329a0f847e55613bfc2e90 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/LocalizedObjectEditor.cs: 45b96b245f5b6768a3c1822d15be15da -> 
-  custom:scripting/monoscript/fileName/ButtonFrameEditor.cs: 81804e45451b7de075c8a6ed928b560b -> 
-  custom:scripting/monoscript/fileName/UIManagerText.cs: b89397a53842dec6ca9101badf70a73a -> 
-  custom:scripting/monoscript/fileName/LocalizationTable.cs: 3493df98426cf09ec29313c439834332 -> 
-  custom:scripting/monoscript/fileName/ToolsMenu.cs: 3be7d533f4fe569ebd46a81ee6ff60de -> 
-  custom:scripting/monoscript/fileName/HeatUIEditorHandler.cs: ad2cd7e85455753d7ce2e75251f90d58 -> 
-  custom:scripting/monoscript/fileName/SocialsWidgetEditor.cs: 4ba6ce97a070393069bdf4006f4fb554 -> 
-  custom:scripting/monoscript/fileName/ProgressBar.cs: 0de5faf8c1989addf9616ad55588748e -> 
-  custom:scripting/monoscript/fileName/LocalizationLanguage.cs: 9afd175b873511773ef097d4fe73ceff -> 
-  custom:scripting/monoscript/fileName/ButtonManagerEditor.cs: fa8b71bda80ad3aea55d172b3db5003e -> 
-  custom:scripting/monoscript/fileName/HUDManagerEditor.cs: 59446c9ce64a652deecddad3a2b670e5 -> 
-  custom:scripting/monoscript/fileName/UIManager.cs: 57b4f0e2fe8fe924758e9ce7b4441139 -> 
-  custom:scripting/monoscript/fileName/UISway.cs: ad14e461a7f5a2374c084d3ec74c595b -> 
-  custom:scripting/monoscript/fileName/UIManagerImageEditor.cs: e06ac88b7e7f3d9baed53c9977eb0381 -> 
-  custom:scripting/monoscript/fileName/AchievementManager.cs: 9b8be57dcbbd1886ca07b62a720b7b15 -> 
-  custom:scripting/monoscript/fileName/UIGradient.cs: a2a003d46061d07bf5377416a987b1f4 -> 
-  custom:scripting/monoscript/fileName/LocalizationSettings.cs: b24ca193853e924374afda7e148be3bd -> 
-  custom:scripting/monoscript/fileName/SelectorInputHandler.cs: 6e1e1b875ad3c378feec0852cbf8d136 -> 
-  custom:scripting/monoscript/fileName/ButtonFrame.cs: a198f07c4a01b1e64029bf5cd7184316 -> 
-  custom:scripting/monoscript/fileName/HotkeyEventEditor.cs: 7dec9f6e3a64be4684ddf7f90c7284c7 -> 
-  custom:scripting/monoscript/fileName/LaunchURL.cs: b4c840f9514b7f65be7cfb48675a9b86 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/ModalWindowManager.cs: 7155656eef55a43d1036cf69ca011c17 -> 
-  custom:scripting/monoscript/fileName/UIManagerAudio.cs: c8dd352dbf8b92515b670c64214c9f59 -> 
-  custom:scripting/monoscript/fileName/MenuManagerEditor.cs: 709fe595f8c0b4b6af817915d98e51df -> 
-  custom:scripting/monoscript/fileName/ControllerPresetManager.cs: af01163bebd062f66da2f34d4298b1b2 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/QuestItemEditor.cs: 592c886a87aa54ddd125b37176159fdc -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/InputFieldManager.cs: 6447500af24c0695dea931c55059ab6b -> 
-  custom:scripting/monoscript/fileName/UIManagerEditor.cs: 56f31aaa629358bded26d1e3950b1e2b -> 
-  custom:scripting/monoscript/fileName/CreditsManager.cs: 056066b6ca191f3111fce0b91bf6c441 -> 
-  custom:scripting/monoscript/fileName/ChapterManager.cs: b6e7f6f14aea48094a6d1f9d62dd785d -> 
-  custom:scripting/monoscript/fileName/UIManagerAudioEditor.cs: fefd857da7b16a9075b97e150b00aa33 -> 
-  custom:scripting/monoscript/fileName/ControllerManagerEditor.cs: e182c250c30fd5fb24fe63f2e1f04a0f -> 
-  custom:scripting/monoscript/fileName/TextTimeCounter.cs: 95c45b1a443300c558bec084b9888686 -> 
-  custom:scripting/monoscript/fileName/CanvasManager.cs: 932545e7bca2fc5855b6e05e14a43739 -> 
-  custom:scripting/monoscript/fileName/NewsSliderEditor.cs: 7fdcd6d70e448f998d67bfb4ba34b3d7 -> 
-  custom:scripting/monoscript/fileName/UIManagerLogoEditor.cs: 1b54259065d386b68c4e57cdf974bfdb -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/MenuManager.cs: 5d7fcbae1157a7198668b53e4ef96155 -> 0343bcd059e803f90b5a61786ef257ee
-  custom:scripting/monoscript/fileName/QuestItem.cs: 534c75ab850fa802334c5f6ff363f5e6 -> 
-  custom:scripting/monoscript/fileName/ExitGame.cs: 4be2c6fc8f39c922c8399a19d0bc98e0 -> 
-  custom:scripting/monoscript/fileName/BoxContainer.cs: f149419c1a0e9bc88883ae3cd000e920 -> 
-  custom:scripting/monoscript/fileName/SliderManager.cs: 8c72986655c3eeb8806565295eaec284 -> 
-  custom:scripting/monoscript/fileName/BoxButtonManagerEditor.cs: 1d1c10bf0d2a416034ce5a0b43d7c041 -> 
-  custom:scripting/monoscript/fileName/SwitchManager.cs: 1fdd6e1b1c4346136615fa6bca537799 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3f468b98489ad6a66ef7787b0f59ccd0 -> 
-  custom:scripting/monoscript/fileName/SwitchManagerEditor.cs: 1e03bb69e55a23b22a59a54dbef9a752 -> 
-  custom:scripting/monoscript/fileName/LocalizationSettingsEditor.cs: 713075ec7d8b3419c49d5892b87072aa -> 
-  custom:scripting/monoscript/fileName/ShopButtonManager.cs: a5ef2af49b2535ca19dfb82a0574cf50 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 040c854e89297709d24279e391499ed4 -> 
-  custom:scripting/monoscript/fileName/SettingsDescriptionManager.cs: a5d31c7f1f089a5e826c41440cb86752 -> 
-  custom:scripting/monoscript/fileName/HUDManager.cs: 5bc3ef009500e907f6597a0f78ac92b1 -> 
-  custom:scripting/monoscript/fileName/PauseMenuManagerEditor.cs: 6116202ebc09692f074a9c671d188c41 -> 
-  custom:scripting/monoscript/fileName/PanelButtonEditor.cs: c89682b44d884f5e107dfb5984b64f43 -> 
-  custom:scripting/monoscript/fileName/ControllerPreset.cs: b088ff63c7e91608a2a7c12d34ee234b -> 
-  custom:scripting/monoscript/fileName/ShopButtonManagerEditor.cs: d7e64b142a53e0bb7843d3524c1a9d04 -> 
-  custom:scripting/monoscript/fileName/UIPopup.cs: 21d861e68ed8f8959b0e7685aa079b84 -> 
-  custom:scripting/monoscript/fileName/SettingsSubElement.cs: 7ad46843ea150b5c14c5dc7ca92f6a5f -> 
-  custom:scripting/monoscript/fileName/AchievementLibrary.cs: c7d6c3bc4b32f4b12de42487e33c851c -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/LocalizationLanguageEditor.cs: 1c2c50b01d14aa83bbfbe2b2dbe2176e -> 
-  custom:scripting/monoscript/fileName/GraphicsManagerEditor.cs: 51d9c0181974a877898512b82c87d06e -> 
-  custom:scripting/monoscript/fileName/ImageFading.cs: 6d5b571ff97fa11f4ab55ba73878bcd0 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ScrollbarInputHandler.cs: 24b0c1f7fe60355f79af30fb16b5312a -> 
-  custom:scripting/monoscript/fileName/ChapterIdentifier.cs: 333f71e2d4562bbb4e82282562ad1afe -> 
-  custom:scripting/monoscript/fileName/PanelManager.cs: f7efbbbe7af316af5bf658f25608a1c8 -> 
-  custom:scripting/monoscript/fileName/InitHeatUI.cs: aa4af9d143a0a8d37e66c3297e731cad -> 
-  custom:scripting/monoscript/fileName/UIElementSound.cs: 9a9bc2177c7afbcd1869558e8a24e88f -> 
-  custom:scripting/monoscript/fileName/UIManagerTextEditor.cs: 44a40f6820d225a088725e57f7f672e8 -> 
-  custom:scripting/monoscript/fileName/HotkeyEvent.cs: 1dad8041de6fe4f2dc4c165f11cf7fd5 -> 
-  custom:scripting/monoscript/fileName/CreditsPreset.cs: fbc6669aedada1bd070e2f4f370b9823 -> 
-  custom:scripting/monoscript/fileName/AchievementItem.cs: 5e28f2f443f615a4268ed78d5cb07693 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SmoothScrollbar.cs: 5c206a3b1ccf0d887676911de656caaa -> 
-  custom:scripting/monoscript/fileName/ProgressBarEditor.cs: 988587bfab2a53535d7ef5e8c59f3cc5 -> 
-  custom:scripting/monoscript/fileName/GradientFilterEditor.cs: 5060b328c633e8433c05f587a1dec953 -> 
-  custom:scripting/monoscript/fileName/BoxContainerItem.cs: 6de7142a07d1f7384d37def58fcf7417 -> 
-  custom:scripting/monoscript/fileName/PanelManagerEditor.cs: c0d4d8b983e42040934a7bed4935a356 -> 
-  custom:scripting/monoscript/fileName/UIManagerFontChanger.cs: 3737924f1846cc42835de760186a1374 -> 
-  custom:scripting/monoscript/fileName/LayoutGroupFix.cs: 9a20dbd43da4c3173f15a697d5eea5a4 -> 
-  custom:scripting/monoscript/fileName/ShinyImage.cs: e47b248ebb59aeeeb8c5b9193c753224 -> 
-  custom:scripting/monoscript/fileName/UIManagerSplashScreen.cs: 6ca20a2abea7b8011d0af2c65c83cb34 -> 
-  custom:scripting/monoscript/fileName/GraphicsManager.cs: da3e5ee7da80c69de7248d21fe93617c -> 
-  custom:scripting/monoscript/fileName/PointerEvent.cs: f32941fefecc8782da3f7358929595dd -> 
-  custom:scripting/monoscript/fileName/UIManagerLogo.cs: 833e17669289f0fae5e9d5afd98f9843 -> 
-  custom:scripting/monoscript/fileName/PauseMenuManager.cs: ab63794b8d53df85b655ac0b7f176367 -> 
-  custom:scripting/monoscript/fileName/NotificationManager.cs: efac277e03e0ae2b368743b40584e426 -> 
-  custom:scripting/monoscript/fileName/ButtonManager.cs: c9a00a9e020a831a1408593ebc22fc2c -> 
-  custom:scripting/monoscript/fileName/SettingsElement.cs: c725e655a83f172bea923607fa50fc57 -> 
-  custom:scripting/monoscript/fileName/BoxButtonManager.cs: 4222d53452d9826486d96ed1ee93f551 -> 
-  custom:scripting/monoscript/fileName/ControllerManager.cs: d2dd4dec31a84ea69aa56fcb4a3fbb05 -> 
-  custom:scripting/monoscript/fileName/PanelButton.cs: 4a77765aa1702c5e59b62ab2873617ce -> 
-  custom:scripting/monoscript/fileName/CanvasGroupAnimator.cs: cc0222ac3b1b8d4a433fcdf364099a97 -> 
-  custom:scripting/monoscript/fileName/SettingsDescription.cs: 41293d727383a5d34a331924ceb3f64f -> 
-  custom:scripting/monoscript/fileName/LocalizationTableWindow.cs: 692dd1d5bc4a28a8838e448d605f0502 -> 
-  custom:scripting/monoscript/fileName/SliderInputHandler.cs: a636d65b39c5f96db620f620f362264c -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/InputNavigationLimiter.cs: c698113da9e23bdb33b25b1275a06233 -> 
-  custom:scripting/monoscript/fileName/HorizontalSelector.cs: 0687add2f0cba6450ac52801b231f092 -> 
-  custom:scripting/monoscript/fileName/ChapterManagerEditor.cs: ae485f977069f2fdbc106e5c8684fa09 -> 
-  custom:scripting/monoscript/fileName/HeatUIInternalTools.cs: 914d637e44f4f1fe206bfbfd79b98dbf -> 
-  custom:scripting/monoscript/fileName/UIManagerImage.cs: 1f39b60d3094e0d3be937b2f1293a55d -> 
-  custom:scripting/monoscript/fileName/UIGradientEditor.cs: 1fd6b39e442b2f8ee1dce83522163027 -> 
-  custom:scripting/monoscript/fileName/AchievementManagerEditor.cs: feb8ba604a374667d296573168904551 -> 
-  custom:scripting/monoscript/fileName/LocalizationManager.cs: 535d74d262864bf03f84bbd9a9add9f9 -> 
-  custom:scripting/monoscript/fileName/ModalWindowManagerEditor.cs: 537ac526a6fdc1477c84188ec414538d -> 
-  custom:scripting/monoscript/fileName/SocialsWidget.cs: 85e4a1b8c2022cbf5cb5c8bdb1a0a723 -> 
-  custom:scripting/monoscript/fileName/CreditsSectionItem.cs: cd1b6298ce9f4332d141900eb288a2e5 -> 
-  custom:scripting/monoscript/fileName/CreditsManagerEditor.cs: f4ddd7e4e3aa215ae67d5f54699be125 -> 
-  custom:scripting/monoscript/fileName/GradientFilter.cs: e93bdfe8c486db8a9c376d2a6ccf5d29 -> 
-  custom:scripting/monoscript/fileName/RectDepth.cs: 90f1f304ae0845c95ed4505fcb5c59c8 -> 
-  custom:scripting/monoscript/fileName/NewsSlider.cs: ba9abc68b9026f91149d1a3ef02584cf -> 
-  custom:scripting/monoscript/fileName/LocalizationManagerEditor.cs: c56a943eee43796c116df53b004a50f4 -> 
-  custom:scripting/monoscript/fileName/DropdownEditor.cs: 04dacfcb3abd62739e18c293699d7cb0 -> 7835943c2b1e7ab14674862cb91ce165
-  custom:scripting/monoscript/fileName/HorizontalSelectorEditor.cs: f9c65442da6e8b2f6cc5dc6ff736a86f -> 
-  custom:scripting/monoscript/fileName/UIManagerColorChanger.cs: d9bc0b320551158391f163a4a8e7b1d2 -> 
-  custom:scripting/monoscript/fileName/ImagePulse.cs: 36cfea2e320d6e0bded6dfc5517c0467 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 22.066350 seconds.
-  path: Assets/Heat - Complete Modern UI/Scenes/In-Game (Cross Platform).unity
-  artifactKey: Guid(68901b9fdca7bc34a8b86bb3d7503dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Heat - Complete Modern UI/Scenes/In-Game (Cross Platform).unity using Guid(68901b9fdca7bc34a8b86bb3d7503dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'd4b1957846bb92d7ca7d943c062b58ab') in 0.003115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.585627 seconds.
-  path: Assets/Heat - Complete Modern UI/Scenes/In-Game (Desktop).unity
-  artifactKey: Guid(7e09ff331c984e84f9e3bbcdb05bea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Heat - Complete Modern UI/Scenes/In-Game (Desktop).unity using Guid(7e09ff331c984e84f9e3bbcdb05bea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'a18c0a9e1ca567dea2de5e735e2d3976') in 0.001140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.669515 seconds.
+  Time since last request: 0.000016 seconds.
   path: Assets/Heat - Complete Modern UI/Scenes/Main Menu (Desktop).unity
   artifactKey: Guid(50e351421c67b2545830389d3fc8bc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Heat - Complete Modern UI/Scenes/Main Menu (Desktop).unity using Guid(50e351421c67b2545830389d3fc8bc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
- -> (artifact id: 'd6851cac3401a2b31143a12ac8674c0a') in 0.000929 seconds
+ -> (artifact id: 'd6851cac3401a2b31143a12ac8674c0a') in 0.000995 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.916 seconds
-Native extension for WindowsStandalone target not found
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.010 seconds
-Domain Reload Profiling: 5897ms
-	BeginReloadAssembly (260ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (504ms)
-		LoadAssemblies (607ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (5011ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1017ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (153ms)
-			ProcessInitializeOnLoadAttributes (718ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
-			AfterProcessingInitializeOnLoad (36ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 30.75 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (1.1 MB). Loaded Objects now: 6676.
-Memory consumption went from 189.5 MB to 188.4 MB.
-Total: 15.444500 ms (FindLiveObjects: 0.613100 ms CreateObjectMapping: 0.592700 ms MarkObjects: 13.748000 ms  DeleteObjects: 0.488700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/LocalizedObject.cs: 10b65ff5f217bd9c71a88dcf4eb87ba8 -> 
-  custom:scripting/monoscript/fileName/SettingsElementEditor.cs: 0ff2c57aaa10ca40c74f50b3ec7344e7 -> 
-  custom:scripting/monoscript/fileName/LocalizationTableEditor.cs: 979ec107191cc6d9f219d49010ad9219 -> 
-  custom:scripting/monoscript/fileName/Dropdown.cs: acb652ea9b4b3ee4b310fe618069f680 -> e2499375dbab18b142e2db07a091d792
-  custom:scripting/monoscript/fileName/SliderInput.cs: 6196c1cf73a997e84a76729f2f18460a -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/NavigationBarEditor.cs: 1cfc75884882362440ddcedf9bfe52eb -> 
-  custom:scripting/monoscript/fileName/NotificationManagerEditor.cs: 0d18d80bdcf30b58841157c2cb71768c -> 
-  custom:scripting/monoscript/fileName/NavigationBar.cs: c65d00313fb56dac9225f25cc163177d -> 
-  custom:scripting/monoscript/fileName/Spinner.cs: 6c8f17a97326255d002c62a30e605605 -> 
-  custom:scripting/monoscript/fileName/CreditsMentionItem.cs: 94dc2905d50060491117f2d00ef5c1a6 -> 
-  custom:scripting/monoscript/fileName/SliderManagerEditor.cs: eec514bf3a329a0f847e55613bfc2e90 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/LocalizedObjectEditor.cs: 45b96b245f5b6768a3c1822d15be15da -> 
-  custom:scripting/monoscript/fileName/ButtonFrameEditor.cs: 81804e45451b7de075c8a6ed928b560b -> 
-  custom:scripting/monoscript/fileName/UIManagerText.cs: b89397a53842dec6ca9101badf70a73a -> 
-  custom:scripting/monoscript/fileName/LocalizationTable.cs: 3493df98426cf09ec29313c439834332 -> 
-  custom:scripting/monoscript/fileName/ToolsMenu.cs: 3be7d533f4fe569ebd46a81ee6ff60de -> 
-  custom:scripting/monoscript/fileName/HeatUIEditorHandler.cs: ad2cd7e85455753d7ce2e75251f90d58 -> 
-  custom:scripting/monoscript/fileName/SocialsWidgetEditor.cs: 4ba6ce97a070393069bdf4006f4fb554 -> 
-  custom:scripting/monoscript/fileName/ProgressBar.cs: 0de5faf8c1989addf9616ad55588748e -> 
-  custom:scripting/monoscript/fileName/LocalizationLanguage.cs: 9afd175b873511773ef097d4fe73ceff -> 
-  custom:scripting/monoscript/fileName/ButtonManagerEditor.cs: fa8b71bda80ad3aea55d172b3db5003e -> 
-  custom:scripting/monoscript/fileName/HUDManagerEditor.cs: 59446c9ce64a652deecddad3a2b670e5 -> 
-  custom:scripting/monoscript/fileName/UIManager.cs: 57b4f0e2fe8fe924758e9ce7b4441139 -> 
-  custom:scripting/monoscript/fileName/UISway.cs: ad14e461a7f5a2374c084d3ec74c595b -> 
-  custom:scripting/monoscript/fileName/UIManagerImageEditor.cs: e06ac88b7e7f3d9baed53c9977eb0381 -> 
-  custom:scripting/monoscript/fileName/AchievementManager.cs: 9b8be57dcbbd1886ca07b62a720b7b15 -> 
-  custom:scripting/monoscript/fileName/UIGradient.cs: a2a003d46061d07bf5377416a987b1f4 -> 
-  custom:scripting/monoscript/fileName/LocalizationSettings.cs: b24ca193853e924374afda7e148be3bd -> 
-  custom:scripting/monoscript/fileName/SelectorInputHandler.cs: 6e1e1b875ad3c378feec0852cbf8d136 -> 
-  custom:scripting/monoscript/fileName/ButtonFrame.cs: a198f07c4a01b1e64029bf5cd7184316 -> 
-  custom:scripting/monoscript/fileName/HotkeyEventEditor.cs: 7dec9f6e3a64be4684ddf7f90c7284c7 -> 
-  custom:scripting/monoscript/fileName/LaunchURL.cs: b4c840f9514b7f65be7cfb48675a9b86 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/ModalWindowManager.cs: 7155656eef55a43d1036cf69ca011c17 -> 
-  custom:scripting/monoscript/fileName/UIManagerAudio.cs: c8dd352dbf8b92515b670c64214c9f59 -> 
-  custom:scripting/monoscript/fileName/MenuManagerEditor.cs: 709fe595f8c0b4b6af817915d98e51df -> 
-  custom:scripting/monoscript/fileName/ControllerPresetManager.cs: af01163bebd062f66da2f34d4298b1b2 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/QuestItemEditor.cs: 592c886a87aa54ddd125b37176159fdc -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/InputFieldManager.cs: 6447500af24c0695dea931c55059ab6b -> 
-  custom:scripting/monoscript/fileName/UIManagerEditor.cs: 56f31aaa629358bded26d1e3950b1e2b -> 
-  custom:scripting/monoscript/fileName/CreditsManager.cs: 056066b6ca191f3111fce0b91bf6c441 -> 
-  custom:scripting/monoscript/fileName/ChapterManager.cs: b6e7f6f14aea48094a6d1f9d62dd785d -> 
-  custom:scripting/monoscript/fileName/UIManagerAudioEditor.cs: fefd857da7b16a9075b97e150b00aa33 -> 
-  custom:scripting/monoscript/fileName/ControllerManagerEditor.cs: e182c250c30fd5fb24fe63f2e1f04a0f -> 
-  custom:scripting/monoscript/fileName/TextTimeCounter.cs: 95c45b1a443300c558bec084b9888686 -> 
-  custom:scripting/monoscript/fileName/CanvasManager.cs: 932545e7bca2fc5855b6e05e14a43739 -> 
-  custom:scripting/monoscript/fileName/NewsSliderEditor.cs: 7fdcd6d70e448f998d67bfb4ba34b3d7 -> 
-  custom:scripting/monoscript/fileName/UIManagerLogoEditor.cs: 1b54259065d386b68c4e57cdf974bfdb -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/MenuManager.cs: 5d7fcbae1157a7198668b53e4ef96155 -> 0343bcd059e803f90b5a61786ef257ee
-  custom:scripting/monoscript/fileName/QuestItem.cs: 534c75ab850fa802334c5f6ff363f5e6 -> 
-  custom:scripting/monoscript/fileName/ExitGame.cs: 4be2c6fc8f39c922c8399a19d0bc98e0 -> 
-  custom:scripting/monoscript/fileName/BoxContainer.cs: f149419c1a0e9bc88883ae3cd000e920 -> 
-  custom:scripting/monoscript/fileName/SliderManager.cs: 8c72986655c3eeb8806565295eaec284 -> 
-  custom:scripting/monoscript/fileName/BoxButtonManagerEditor.cs: 1d1c10bf0d2a416034ce5a0b43d7c041 -> 
-  custom:scripting/monoscript/fileName/SwitchManager.cs: 1fdd6e1b1c4346136615fa6bca537799 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3f468b98489ad6a66ef7787b0f59ccd0 -> 
-  custom:scripting/monoscript/fileName/SwitchManagerEditor.cs: 1e03bb69e55a23b22a59a54dbef9a752 -> 
-  custom:scripting/monoscript/fileName/LocalizationSettingsEditor.cs: 713075ec7d8b3419c49d5892b87072aa -> 
-  custom:scripting/monoscript/fileName/ShopButtonManager.cs: a5ef2af49b2535ca19dfb82a0574cf50 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 040c854e89297709d24279e391499ed4 -> 
-  custom:scripting/monoscript/fileName/SettingsDescriptionManager.cs: a5d31c7f1f089a5e826c41440cb86752 -> 
-  custom:scripting/monoscript/fileName/HUDManager.cs: 5bc3ef009500e907f6597a0f78ac92b1 -> 
-  custom:scripting/monoscript/fileName/PauseMenuManagerEditor.cs: 6116202ebc09692f074a9c671d188c41 -> 
-  custom:scripting/monoscript/fileName/PanelButtonEditor.cs: c89682b44d884f5e107dfb5984b64f43 -> 
-  custom:scripting/monoscript/fileName/ControllerPreset.cs: b088ff63c7e91608a2a7c12d34ee234b -> 
-  custom:scripting/monoscript/fileName/ShopButtonManagerEditor.cs: d7e64b142a53e0bb7843d3524c1a9d04 -> 
-  custom:scripting/monoscript/fileName/UIPopup.cs: 21d861e68ed8f8959b0e7685aa079b84 -> 
-  custom:scripting/monoscript/fileName/SettingsSubElement.cs: 7ad46843ea150b5c14c5dc7ca92f6a5f -> 
-  custom:scripting/monoscript/fileName/AchievementLibrary.cs: c7d6c3bc4b32f4b12de42487e33c851c -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/LocalizationLanguageEditor.cs: 1c2c50b01d14aa83bbfbe2b2dbe2176e -> 
-  custom:scripting/monoscript/fileName/GraphicsManagerEditor.cs: 51d9c0181974a877898512b82c87d06e -> 
-  custom:scripting/monoscript/fileName/ImageFading.cs: 6d5b571ff97fa11f4ab55ba73878bcd0 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ScrollbarInputHandler.cs: 24b0c1f7fe60355f79af30fb16b5312a -> 
-  custom:scripting/monoscript/fileName/ChapterIdentifier.cs: 333f71e2d4562bbb4e82282562ad1afe -> 
-  custom:scripting/monoscript/fileName/PanelManager.cs: f7efbbbe7af316af5bf658f25608a1c8 -> 
-  custom:scripting/monoscript/fileName/InitHeatUI.cs: aa4af9d143a0a8d37e66c3297e731cad -> 
-  custom:scripting/monoscript/fileName/UIElementSound.cs: 9a9bc2177c7afbcd1869558e8a24e88f -> 
-  custom:scripting/monoscript/fileName/UIManagerTextEditor.cs: 44a40f6820d225a088725e57f7f672e8 -> 
-  custom:scripting/monoscript/fileName/HotkeyEvent.cs: 1dad8041de6fe4f2dc4c165f11cf7fd5 -> 
-  custom:scripting/monoscript/fileName/CreditsPreset.cs: fbc6669aedada1bd070e2f4f370b9823 -> 
-  custom:scripting/monoscript/fileName/AchievementItem.cs: 5e28f2f443f615a4268ed78d5cb07693 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SmoothScrollbar.cs: 5c206a3b1ccf0d887676911de656caaa -> 
-  custom:scripting/monoscript/fileName/ProgressBarEditor.cs: 988587bfab2a53535d7ef5e8c59f3cc5 -> 
-  custom:scripting/monoscript/fileName/GradientFilterEditor.cs: 5060b328c633e8433c05f587a1dec953 -> 
-  custom:scripting/monoscript/fileName/BoxContainerItem.cs: 6de7142a07d1f7384d37def58fcf7417 -> 
-  custom:scripting/monoscript/fileName/PanelManagerEditor.cs: c0d4d8b983e42040934a7bed4935a356 -> 
-  custom:scripting/monoscript/fileName/UIManagerFontChanger.cs: 3737924f1846cc42835de760186a1374 -> 
-  custom:scripting/monoscript/fileName/LayoutGroupFix.cs: 9a20dbd43da4c3173f15a697d5eea5a4 -> 
-  custom:scripting/monoscript/fileName/ShinyImage.cs: e47b248ebb59aeeeb8c5b9193c753224 -> 
-  custom:scripting/monoscript/fileName/UIManagerSplashScreen.cs: 6ca20a2abea7b8011d0af2c65c83cb34 -> 
-  custom:scripting/monoscript/fileName/GraphicsManager.cs: da3e5ee7da80c69de7248d21fe93617c -> 
-  custom:scripting/monoscript/fileName/PointerEvent.cs: f32941fefecc8782da3f7358929595dd -> 
-  custom:scripting/monoscript/fileName/UIManagerLogo.cs: 833e17669289f0fae5e9d5afd98f9843 -> 
-  custom:scripting/monoscript/fileName/PauseMenuManager.cs: ab63794b8d53df85b655ac0b7f176367 -> 
-  custom:scripting/monoscript/fileName/NotificationManager.cs: efac277e03e0ae2b368743b40584e426 -> 
-  custom:scripting/monoscript/fileName/ButtonManager.cs: c9a00a9e020a831a1408593ebc22fc2c -> 
-  custom:scripting/monoscript/fileName/SettingsElement.cs: c725e655a83f172bea923607fa50fc57 -> 
-  custom:scripting/monoscript/fileName/BoxButtonManager.cs: 4222d53452d9826486d96ed1ee93f551 -> 
-  custom:scripting/monoscript/fileName/ControllerManager.cs: d2dd4dec31a84ea69aa56fcb4a3fbb05 -> 
-  custom:scripting/monoscript/fileName/PanelButton.cs: 4a77765aa1702c5e59b62ab2873617ce -> 
-  custom:scripting/monoscript/fileName/CanvasGroupAnimator.cs: cc0222ac3b1b8d4a433fcdf364099a97 -> 
-  custom:scripting/monoscript/fileName/SettingsDescription.cs: 41293d727383a5d34a331924ceb3f64f -> 
-  custom:scripting/monoscript/fileName/LocalizationTableWindow.cs: 692dd1d5bc4a28a8838e448d605f0502 -> 
-  custom:scripting/monoscript/fileName/SliderInputHandler.cs: a636d65b39c5f96db620f620f362264c -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/InputNavigationLimiter.cs: c698113da9e23bdb33b25b1275a06233 -> 
-  custom:scripting/monoscript/fileName/HorizontalSelector.cs: 0687add2f0cba6450ac52801b231f092 -> 
-  custom:scripting/monoscript/fileName/ChapterManagerEditor.cs: ae485f977069f2fdbc106e5c8684fa09 -> 
-  custom:scripting/monoscript/fileName/HeatUIInternalTools.cs: 914d637e44f4f1fe206bfbfd79b98dbf -> 
-  custom:scripting/monoscript/fileName/UIManagerImage.cs: 1f39b60d3094e0d3be937b2f1293a55d -> 
-  custom:scripting/monoscript/fileName/UIGradientEditor.cs: 1fd6b39e442b2f8ee1dce83522163027 -> 
-  custom:scripting/monoscript/fileName/AchievementManagerEditor.cs: feb8ba604a374667d296573168904551 -> 
-  custom:scripting/monoscript/fileName/LocalizationManager.cs: 535d74d262864bf03f84bbd9a9add9f9 -> 
-  custom:scripting/monoscript/fileName/ModalWindowManagerEditor.cs: 537ac526a6fdc1477c84188ec414538d -> 
-  custom:scripting/monoscript/fileName/SocialsWidget.cs: 85e4a1b8c2022cbf5cb5c8bdb1a0a723 -> 
-  custom:scripting/monoscript/fileName/CreditsSectionItem.cs: cd1b6298ce9f4332d141900eb288a2e5 -> 
-  custom:scripting/monoscript/fileName/CreditsManagerEditor.cs: f4ddd7e4e3aa215ae67d5f54699be125 -> 
-  custom:scripting/monoscript/fileName/GradientFilter.cs: e93bdfe8c486db8a9c376d2a6ccf5d29 -> 
-  custom:scripting/monoscript/fileName/RectDepth.cs: 90f1f304ae0845c95ed4505fcb5c59c8 -> 
-  custom:scripting/monoscript/fileName/NewsSlider.cs: ba9abc68b9026f91149d1a3ef02584cf -> 
-  custom:scripting/monoscript/fileName/LocalizationManagerEditor.cs: c56a943eee43796c116df53b004a50f4 -> 
-  custom:scripting/monoscript/fileName/DropdownEditor.cs: 04dacfcb3abd62739e18c293699d7cb0 -> 7835943c2b1e7ab14674862cb91ce165
-  custom:scripting/monoscript/fileName/HorizontalSelectorEditor.cs: f9c65442da6e8b2f6cc5dc6ff736a86f -> 
-  custom:scripting/monoscript/fileName/UIManagerColorChanger.cs: d9bc0b320551158391f163a4a8e7b1d2 -> 
-  custom:scripting/monoscript/fileName/ImagePulse.cs: 36cfea2e320d6e0bded6dfc5517c0467 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.880 seconds
-Native extension for WindowsStandalone target not found
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.883 seconds
-Domain Reload Profiling: 5736ms
-	BeginReloadAssembly (256ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (480ms)
-		LoadAssemblies (583ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (4885ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1047ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (166ms)
-			ProcessInitializeOnLoadAttributes (735ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
-			AfterProcessingInitializeOnLoad (38ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 29.29 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6144 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (1.1 MB). Loaded Objects now: 6681.
-Memory consumption went from 189.8 MB to 188.7 MB.
-Total: 15.258100 ms (FindLiveObjects: 1.406300 ms CreateObjectMapping: 0.732800 ms MarkObjects: 12.837000 ms  DeleteObjects: 0.280500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/LocalizedObject.cs: 10b65ff5f217bd9c71a88dcf4eb87ba8 -> 
-  custom:scripting/monoscript/fileName/SettingsElementEditor.cs: 0ff2c57aaa10ca40c74f50b3ec7344e7 -> 
-  custom:scripting/monoscript/fileName/LocalizationTableEditor.cs: 979ec107191cc6d9f219d49010ad9219 -> 
-  custom:scripting/monoscript/fileName/Dropdown.cs: acb652ea9b4b3ee4b310fe618069f680 -> e2499375dbab18b142e2db07a091d792
-  custom:scripting/monoscript/fileName/SliderInput.cs: 6196c1cf73a997e84a76729f2f18460a -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/NavigationBarEditor.cs: 1cfc75884882362440ddcedf9bfe52eb -> 
-  custom:scripting/monoscript/fileName/NotificationManagerEditor.cs: 0d18d80bdcf30b58841157c2cb71768c -> 
-  custom:scripting/monoscript/fileName/NavigationBar.cs: c65d00313fb56dac9225f25cc163177d -> 
-  custom:scripting/monoscript/fileName/Spinner.cs: 6c8f17a97326255d002c62a30e605605 -> 
-  custom:scripting/monoscript/fileName/CreditsMentionItem.cs: 94dc2905d50060491117f2d00ef5c1a6 -> 
-  custom:scripting/monoscript/fileName/SliderManagerEditor.cs: eec514bf3a329a0f847e55613bfc2e90 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/LocalizedObjectEditor.cs: 45b96b245f5b6768a3c1822d15be15da -> 
-  custom:scripting/monoscript/fileName/ButtonFrameEditor.cs: 81804e45451b7de075c8a6ed928b560b -> 
-  custom:scripting/monoscript/fileName/UIManagerText.cs: b89397a53842dec6ca9101badf70a73a -> 
-  custom:scripting/monoscript/fileName/LocalizationTable.cs: 3493df98426cf09ec29313c439834332 -> 
-  custom:scripting/monoscript/fileName/ToolsMenu.cs: 3be7d533f4fe569ebd46a81ee6ff60de -> 
-  custom:scripting/monoscript/fileName/HeatUIEditorHandler.cs: ad2cd7e85455753d7ce2e75251f90d58 -> 
-  custom:scripting/monoscript/fileName/SocialsWidgetEditor.cs: 4ba6ce97a070393069bdf4006f4fb554 -> 
-  custom:scripting/monoscript/fileName/ProgressBar.cs: 0de5faf8c1989addf9616ad55588748e -> 
-  custom:scripting/monoscript/fileName/LocalizationLanguage.cs: 9afd175b873511773ef097d4fe73ceff -> 
-  custom:scripting/monoscript/fileName/ButtonManagerEditor.cs: fa8b71bda80ad3aea55d172b3db5003e -> 
-  custom:scripting/monoscript/fileName/HUDManagerEditor.cs: 59446c9ce64a652deecddad3a2b670e5 -> 
-  custom:scripting/monoscript/fileName/UIManager.cs: 57b4f0e2fe8fe924758e9ce7b4441139 -> 
-  custom:scripting/monoscript/fileName/UISway.cs: ad14e461a7f5a2374c084d3ec74c595b -> 
-  custom:scripting/monoscript/fileName/UIManagerImageEditor.cs: e06ac88b7e7f3d9baed53c9977eb0381 -> 
-  custom:scripting/monoscript/fileName/AchievementManager.cs: 9b8be57dcbbd1886ca07b62a720b7b15 -> 
-  custom:scripting/monoscript/fileName/UIGradient.cs: a2a003d46061d07bf5377416a987b1f4 -> 
-  custom:scripting/monoscript/fileName/LocalizationSettings.cs: b24ca193853e924374afda7e148be3bd -> 
-  custom:scripting/monoscript/fileName/SelectorInputHandler.cs: 6e1e1b875ad3c378feec0852cbf8d136 -> 
-  custom:scripting/monoscript/fileName/ButtonFrame.cs: a198f07c4a01b1e64029bf5cd7184316 -> 
-  custom:scripting/monoscript/fileName/HotkeyEventEditor.cs: 7dec9f6e3a64be4684ddf7f90c7284c7 -> 
-  custom:scripting/monoscript/fileName/LaunchURL.cs: b4c840f9514b7f65be7cfb48675a9b86 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/ModalWindowManager.cs: 7155656eef55a43d1036cf69ca011c17 -> 
-  custom:scripting/monoscript/fileName/UIManagerAudio.cs: c8dd352dbf8b92515b670c64214c9f59 -> 
-  custom:scripting/monoscript/fileName/MenuManagerEditor.cs: 709fe595f8c0b4b6af817915d98e51df -> 
-  custom:scripting/monoscript/fileName/ControllerPresetManager.cs: af01163bebd062f66da2f34d4298b1b2 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/QuestItemEditor.cs: 592c886a87aa54ddd125b37176159fdc -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/InputFieldManager.cs: 6447500af24c0695dea931c55059ab6b -> 
-  custom:scripting/monoscript/fileName/UIManagerEditor.cs: 56f31aaa629358bded26d1e3950b1e2b -> 
-  custom:scripting/monoscript/fileName/CreditsManager.cs: 056066b6ca191f3111fce0b91bf6c441 -> 
-  custom:scripting/monoscript/fileName/ChapterManager.cs: b6e7f6f14aea48094a6d1f9d62dd785d -> 
-  custom:scripting/monoscript/fileName/UIManagerAudioEditor.cs: fefd857da7b16a9075b97e150b00aa33 -> 
-  custom:scripting/monoscript/fileName/ControllerManagerEditor.cs: e182c250c30fd5fb24fe63f2e1f04a0f -> 
-  custom:scripting/monoscript/fileName/TextTimeCounter.cs: 95c45b1a443300c558bec084b9888686 -> 
-  custom:scripting/monoscript/fileName/CanvasManager.cs: 932545e7bca2fc5855b6e05e14a43739 -> 
-  custom:scripting/monoscript/fileName/NewsSliderEditor.cs: 7fdcd6d70e448f998d67bfb4ba34b3d7 -> 
-  custom:scripting/monoscript/fileName/UIManagerLogoEditor.cs: 1b54259065d386b68c4e57cdf974bfdb -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/MenuManager.cs: 5d7fcbae1157a7198668b53e4ef96155 -> 0343bcd059e803f90b5a61786ef257ee
-  custom:scripting/monoscript/fileName/QuestItem.cs: 534c75ab850fa802334c5f6ff363f5e6 -> 
-  custom:scripting/monoscript/fileName/ExitGame.cs: 4be2c6fc8f39c922c8399a19d0bc98e0 -> 
-  custom:scripting/monoscript/fileName/BoxContainer.cs: f149419c1a0e9bc88883ae3cd000e920 -> 
-  custom:scripting/monoscript/fileName/SliderManager.cs: 8c72986655c3eeb8806565295eaec284 -> 
-  custom:scripting/monoscript/fileName/BoxButtonManagerEditor.cs: 1d1c10bf0d2a416034ce5a0b43d7c041 -> 
-  custom:scripting/monoscript/fileName/SwitchManager.cs: 1fdd6e1b1c4346136615fa6bca537799 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3f468b98489ad6a66ef7787b0f59ccd0 -> 
-  custom:scripting/monoscript/fileName/SwitchManagerEditor.cs: 1e03bb69e55a23b22a59a54dbef9a752 -> 
-  custom:scripting/monoscript/fileName/LocalizationSettingsEditor.cs: 713075ec7d8b3419c49d5892b87072aa -> 
-  custom:scripting/monoscript/fileName/ShopButtonManager.cs: a5ef2af49b2535ca19dfb82a0574cf50 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 040c854e89297709d24279e391499ed4 -> 
-  custom:scripting/monoscript/fileName/SettingsDescriptionManager.cs: a5d31c7f1f089a5e826c41440cb86752 -> 
-  custom:scripting/monoscript/fileName/HUDManager.cs: 5bc3ef009500e907f6597a0f78ac92b1 -> 
-  custom:scripting/monoscript/fileName/PauseMenuManagerEditor.cs: 6116202ebc09692f074a9c671d188c41 -> 
-  custom:scripting/monoscript/fileName/PanelButtonEditor.cs: c89682b44d884f5e107dfb5984b64f43 -> 
-  custom:scripting/monoscript/fileName/ControllerPreset.cs: b088ff63c7e91608a2a7c12d34ee234b -> 
-  custom:scripting/monoscript/fileName/ShopButtonManagerEditor.cs: d7e64b142a53e0bb7843d3524c1a9d04 -> 
-  custom:scripting/monoscript/fileName/UIPopup.cs: 21d861e68ed8f8959b0e7685aa079b84 -> 
-  custom:scripting/monoscript/fileName/SettingsSubElement.cs: 7ad46843ea150b5c14c5dc7ca92f6a5f -> 
-  custom:scripting/monoscript/fileName/AchievementLibrary.cs: c7d6c3bc4b32f4b12de42487e33c851c -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/LocalizationLanguageEditor.cs: 1c2c50b01d14aa83bbfbe2b2dbe2176e -> 
-  custom:scripting/monoscript/fileName/GraphicsManagerEditor.cs: 51d9c0181974a877898512b82c87d06e -> 
-  custom:scripting/monoscript/fileName/ImageFading.cs: 6d5b571ff97fa11f4ab55ba73878bcd0 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ScrollbarInputHandler.cs: 24b0c1f7fe60355f79af30fb16b5312a -> 
-  custom:scripting/monoscript/fileName/ChapterIdentifier.cs: 333f71e2d4562bbb4e82282562ad1afe -> 
-  custom:scripting/monoscript/fileName/PanelManager.cs: f7efbbbe7af316af5bf658f25608a1c8 -> 
-  custom:scripting/monoscript/fileName/InitHeatUI.cs: aa4af9d143a0a8d37e66c3297e731cad -> 
-  custom:scripting/monoscript/fileName/UIElementSound.cs: 9a9bc2177c7afbcd1869558e8a24e88f -> 
-  custom:scripting/monoscript/fileName/UIManagerTextEditor.cs: 44a40f6820d225a088725e57f7f672e8 -> 
-  custom:scripting/monoscript/fileName/HotkeyEvent.cs: 1dad8041de6fe4f2dc4c165f11cf7fd5 -> 
-  custom:scripting/monoscript/fileName/CreditsPreset.cs: fbc6669aedada1bd070e2f4f370b9823 -> 
-  custom:scripting/monoscript/fileName/AchievementItem.cs: 5e28f2f443f615a4268ed78d5cb07693 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SmoothScrollbar.cs: 5c206a3b1ccf0d887676911de656caaa -> 
-  custom:scripting/monoscript/fileName/ProgressBarEditor.cs: 988587bfab2a53535d7ef5e8c59f3cc5 -> 
-  custom:scripting/monoscript/fileName/GradientFilterEditor.cs: 5060b328c633e8433c05f587a1dec953 -> 
-  custom:scripting/monoscript/fileName/BoxContainerItem.cs: 6de7142a07d1f7384d37def58fcf7417 -> 
-  custom:scripting/monoscript/fileName/PanelManagerEditor.cs: c0d4d8b983e42040934a7bed4935a356 -> 
-  custom:scripting/monoscript/fileName/UIManagerFontChanger.cs: 3737924f1846cc42835de760186a1374 -> 
-  custom:scripting/monoscript/fileName/LayoutGroupFix.cs: 9a20dbd43da4c3173f15a697d5eea5a4 -> 
-  custom:scripting/monoscript/fileName/ShinyImage.cs: e47b248ebb59aeeeb8c5b9193c753224 -> 
-  custom:scripting/monoscript/fileName/UIManagerSplashScreen.cs: 6ca20a2abea7b8011d0af2c65c83cb34 -> 
-  custom:scripting/monoscript/fileName/GraphicsManager.cs: da3e5ee7da80c69de7248d21fe93617c -> 
-  custom:scripting/monoscript/fileName/PointerEvent.cs: f32941fefecc8782da3f7358929595dd -> 
-  custom:scripting/monoscript/fileName/UIManagerLogo.cs: 833e17669289f0fae5e9d5afd98f9843 -> 
-  custom:scripting/monoscript/fileName/PauseMenuManager.cs: ab63794b8d53df85b655ac0b7f176367 -> 
-  custom:scripting/monoscript/fileName/NotificationManager.cs: efac277e03e0ae2b368743b40584e426 -> 
-  custom:scripting/monoscript/fileName/ButtonManager.cs: c9a00a9e020a831a1408593ebc22fc2c -> 
-  custom:scripting/monoscript/fileName/SettingsElement.cs: c725e655a83f172bea923607fa50fc57 -> 
-  custom:scripting/monoscript/fileName/BoxButtonManager.cs: 4222d53452d9826486d96ed1ee93f551 -> 
-  custom:scripting/monoscript/fileName/ControllerManager.cs: d2dd4dec31a84ea69aa56fcb4a3fbb05 -> 
-  custom:scripting/monoscript/fileName/PanelButton.cs: 4a77765aa1702c5e59b62ab2873617ce -> 
-  custom:scripting/monoscript/fileName/CanvasGroupAnimator.cs: cc0222ac3b1b8d4a433fcdf364099a97 -> 
-  custom:scripting/monoscript/fileName/SettingsDescription.cs: 41293d727383a5d34a331924ceb3f64f -> 
-  custom:scripting/monoscript/fileName/LocalizationTableWindow.cs: 692dd1d5bc4a28a8838e448d605f0502 -> 
-  custom:scripting/monoscript/fileName/SliderInputHandler.cs: a636d65b39c5f96db620f620f362264c -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/InputNavigationLimiter.cs: c698113da9e23bdb33b25b1275a06233 -> 
-  custom:scripting/monoscript/fileName/HorizontalSelector.cs: 0687add2f0cba6450ac52801b231f092 -> 
-  custom:scripting/monoscript/fileName/ChapterManagerEditor.cs: ae485f977069f2fdbc106e5c8684fa09 -> 
-  custom:scripting/monoscript/fileName/HeatUIInternalTools.cs: 914d637e44f4f1fe206bfbfd79b98dbf -> 
-  custom:scripting/monoscript/fileName/UIManagerImage.cs: 1f39b60d3094e0d3be937b2f1293a55d -> 
-  custom:scripting/monoscript/fileName/UIGradientEditor.cs: 1fd6b39e442b2f8ee1dce83522163027 -> 
-  custom:scripting/monoscript/fileName/AchievementManagerEditor.cs: feb8ba604a374667d296573168904551 -> 
-  custom:scripting/monoscript/fileName/LocalizationManager.cs: 535d74d262864bf03f84bbd9a9add9f9 -> 
-  custom:scripting/monoscript/fileName/ModalWindowManagerEditor.cs: 537ac526a6fdc1477c84188ec414538d -> 
-  custom:scripting/monoscript/fileName/SocialsWidget.cs: 85e4a1b8c2022cbf5cb5c8bdb1a0a723 -> 
-  custom:scripting/monoscript/fileName/CreditsSectionItem.cs: cd1b6298ce9f4332d141900eb288a2e5 -> 
-  custom:scripting/monoscript/fileName/CreditsManagerEditor.cs: f4ddd7e4e3aa215ae67d5f54699be125 -> 
-  custom:scripting/monoscript/fileName/GradientFilter.cs: e93bdfe8c486db8a9c376d2a6ccf5d29 -> 
-  custom:scripting/monoscript/fileName/RectDepth.cs: 90f1f304ae0845c95ed4505fcb5c59c8 -> 
-  custom:scripting/monoscript/fileName/NewsSlider.cs: ba9abc68b9026f91149d1a3ef02584cf -> 
-  custom:scripting/monoscript/fileName/LocalizationManagerEditor.cs: c56a943eee43796c116df53b004a50f4 -> 
-  custom:scripting/monoscript/fileName/DropdownEditor.cs: 04dacfcb3abd62739e18c293699d7cb0 -> 7835943c2b1e7ab14674862cb91ce165
-  custom:scripting/monoscript/fileName/HorizontalSelectorEditor.cs: f9c65442da6e8b2f6cc5dc6ff736a86f -> 
-  custom:scripting/monoscript/fileName/UIManagerColorChanger.cs: d9bc0b320551158391f163a4a8e7b1d2 -> 
-  custom:scripting/monoscript/fileName/ImagePulse.cs: 36cfea2e320d6e0bded6dfc5517c0467 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.425 seconds
-Native extension for WindowsStandalone target not found
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 10.146 seconds
-Domain Reload Profiling: 11531ms
-	BeginReloadAssembly (490ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (29ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (115ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (90ms)
-	LoadAllAssembliesAndSetupDomain (741ms)
-		LoadAssemblies (910ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (54ms)
-			TypeCache.Refresh (24ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (10147ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2003ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (12ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (295ms)
-			ProcessInitializeOnLoadAttributes (1392ms)
-			ProcessInitializeOnLoadMethodAttributes (176ms)
-			AfterProcessingInitializeOnLoad (96ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Refreshing native plugins compatible for Editor in 38.05 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6144 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (1.1 MB). Loaded Objects now: 6686.
-Memory consumption went from 189.8 MB to 188.7 MB.
-Total: 28.027700 ms (FindLiveObjects: 0.730200 ms CreateObjectMapping: 0.623000 ms MarkObjects: 26.151700 ms  DeleteObjects: 0.520800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/LocalizedObject.cs: 10b65ff5f217bd9c71a88dcf4eb87ba8 -> 
-  custom:scripting/monoscript/fileName/SettingsElementEditor.cs: 0ff2c57aaa10ca40c74f50b3ec7344e7 -> 
-  custom:scripting/monoscript/fileName/LocalizationTableEditor.cs: 979ec107191cc6d9f219d49010ad9219 -> 
-  custom:scripting/monoscript/fileName/Dropdown.cs: acb652ea9b4b3ee4b310fe618069f680 -> e2499375dbab18b142e2db07a091d792
-  custom:scripting/monoscript/fileName/SliderInput.cs: 6196c1cf73a997e84a76729f2f18460a -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/NavigationBarEditor.cs: 1cfc75884882362440ddcedf9bfe52eb -> 
-  custom:scripting/monoscript/fileName/NotificationManagerEditor.cs: 0d18d80bdcf30b58841157c2cb71768c -> 
-  custom:scripting/monoscript/fileName/NavigationBar.cs: c65d00313fb56dac9225f25cc163177d -> 
-  custom:scripting/monoscript/fileName/Spinner.cs: 6c8f17a97326255d002c62a30e605605 -> 
-  custom:scripting/monoscript/fileName/CreditsMentionItem.cs: 94dc2905d50060491117f2d00ef5c1a6 -> 
-  custom:scripting/monoscript/fileName/SliderManagerEditor.cs: eec514bf3a329a0f847e55613bfc2e90 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/LocalizedObjectEditor.cs: 45b96b245f5b6768a3c1822d15be15da -> 
-  custom:scripting/monoscript/fileName/ButtonFrameEditor.cs: 81804e45451b7de075c8a6ed928b560b -> 
-  custom:scripting/monoscript/fileName/UIManagerText.cs: b89397a53842dec6ca9101badf70a73a -> 
-  custom:scripting/monoscript/fileName/LocalizationTable.cs: 3493df98426cf09ec29313c439834332 -> 
-  custom:scripting/monoscript/fileName/ToolsMenu.cs: 3be7d533f4fe569ebd46a81ee6ff60de -> 
-  custom:scripting/monoscript/fileName/HeatUIEditorHandler.cs: ad2cd7e85455753d7ce2e75251f90d58 -> 
-  custom:scripting/monoscript/fileName/SocialsWidgetEditor.cs: 4ba6ce97a070393069bdf4006f4fb554 -> 
-  custom:scripting/monoscript/fileName/ProgressBar.cs: 0de5faf8c1989addf9616ad55588748e -> 
-  custom:scripting/monoscript/fileName/LocalizationLanguage.cs: 9afd175b873511773ef097d4fe73ceff -> 
-  custom:scripting/monoscript/fileName/ButtonManagerEditor.cs: fa8b71bda80ad3aea55d172b3db5003e -> 
-  custom:scripting/monoscript/fileName/HUDManagerEditor.cs: 59446c9ce64a652deecddad3a2b670e5 -> 
-  custom:scripting/monoscript/fileName/UIManager.cs: 57b4f0e2fe8fe924758e9ce7b4441139 -> 
-  custom:scripting/monoscript/fileName/UISway.cs: ad14e461a7f5a2374c084d3ec74c595b -> 
-  custom:scripting/monoscript/fileName/UIManagerImageEditor.cs: e06ac88b7e7f3d9baed53c9977eb0381 -> 
-  custom:scripting/monoscript/fileName/AchievementManager.cs: 9b8be57dcbbd1886ca07b62a720b7b15 -> 
-  custom:scripting/monoscript/fileName/UIGradient.cs: a2a003d46061d07bf5377416a987b1f4 -> 
-  custom:scripting/monoscript/fileName/LocalizationSettings.cs: b24ca193853e924374afda7e148be3bd -> 
-  custom:scripting/monoscript/fileName/SelectorInputHandler.cs: 6e1e1b875ad3c378feec0852cbf8d136 -> 
-  custom:scripting/monoscript/fileName/ButtonFrame.cs: a198f07c4a01b1e64029bf5cd7184316 -> 
-  custom:scripting/monoscript/fileName/HotkeyEventEditor.cs: 7dec9f6e3a64be4684ddf7f90c7284c7 -> 
-  custom:scripting/monoscript/fileName/LaunchURL.cs: b4c840f9514b7f65be7cfb48675a9b86 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/ModalWindowManager.cs: 7155656eef55a43d1036cf69ca011c17 -> 
-  custom:scripting/monoscript/fileName/UIManagerAudio.cs: c8dd352dbf8b92515b670c64214c9f59 -> 
-  custom:scripting/monoscript/fileName/MenuManagerEditor.cs: 709fe595f8c0b4b6af817915d98e51df -> 
-  custom:scripting/monoscript/fileName/ControllerPresetManager.cs: af01163bebd062f66da2f34d4298b1b2 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/QuestItemEditor.cs: 592c886a87aa54ddd125b37176159fdc -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/InputFieldManager.cs: 6447500af24c0695dea931c55059ab6b -> 
-  custom:scripting/monoscript/fileName/UIManagerEditor.cs: 56f31aaa629358bded26d1e3950b1e2b -> 
-  custom:scripting/monoscript/fileName/CreditsManager.cs: 056066b6ca191f3111fce0b91bf6c441 -> 
-  custom:scripting/monoscript/fileName/ChapterManager.cs: b6e7f6f14aea48094a6d1f9d62dd785d -> 
-  custom:scripting/monoscript/fileName/UIManagerAudioEditor.cs: fefd857da7b16a9075b97e150b00aa33 -> 
-  custom:scripting/monoscript/fileName/ControllerManagerEditor.cs: e182c250c30fd5fb24fe63f2e1f04a0f -> 
-  custom:scripting/monoscript/fileName/TextTimeCounter.cs: 95c45b1a443300c558bec084b9888686 -> 
-  custom:scripting/monoscript/fileName/CanvasManager.cs: 932545e7bca2fc5855b6e05e14a43739 -> 
-  custom:scripting/monoscript/fileName/NewsSliderEditor.cs: 7fdcd6d70e448f998d67bfb4ba34b3d7 -> 
-  custom:scripting/monoscript/fileName/UIManagerLogoEditor.cs: 1b54259065d386b68c4e57cdf974bfdb -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/MenuManager.cs: 5d7fcbae1157a7198668b53e4ef96155 -> 0343bcd059e803f90b5a61786ef257ee
-  custom:scripting/monoscript/fileName/QuestItem.cs: 534c75ab850fa802334c5f6ff363f5e6 -> 
-  custom:scripting/monoscript/fileName/ExitGame.cs: 4be2c6fc8f39c922c8399a19d0bc98e0 -> 
-  custom:scripting/monoscript/fileName/BoxContainer.cs: f149419c1a0e9bc88883ae3cd000e920 -> 
-  custom:scripting/monoscript/fileName/SliderManager.cs: 8c72986655c3eeb8806565295eaec284 -> 
-  custom:scripting/monoscript/fileName/BoxButtonManagerEditor.cs: 1d1c10bf0d2a416034ce5a0b43d7c041 -> 
-  custom:scripting/monoscript/fileName/SwitchManager.cs: 1fdd6e1b1c4346136615fa6bca537799 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 3f468b98489ad6a66ef7787b0f59ccd0 -> 
-  custom:scripting/monoscript/fileName/SwitchManagerEditor.cs: 1e03bb69e55a23b22a59a54dbef9a752 -> 
-  custom:scripting/monoscript/fileName/LocalizationSettingsEditor.cs: 713075ec7d8b3419c49d5892b87072aa -> 
-  custom:scripting/monoscript/fileName/ShopButtonManager.cs: a5ef2af49b2535ca19dfb82a0574cf50 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 040c854e89297709d24279e391499ed4 -> 
-  custom:scripting/monoscript/fileName/SettingsDescriptionManager.cs: a5d31c7f1f089a5e826c41440cb86752 -> 
-  custom:scripting/monoscript/fileName/HUDManager.cs: 5bc3ef009500e907f6597a0f78ac92b1 -> 
-  custom:scripting/monoscript/fileName/PauseMenuManagerEditor.cs: 6116202ebc09692f074a9c671d188c41 -> 
-  custom:scripting/monoscript/fileName/PanelButtonEditor.cs: c89682b44d884f5e107dfb5984b64f43 -> 
-  custom:scripting/monoscript/fileName/ControllerPreset.cs: b088ff63c7e91608a2a7c12d34ee234b -> 
-  custom:scripting/monoscript/fileName/ShopButtonManagerEditor.cs: d7e64b142a53e0bb7843d3524c1a9d04 -> 
-  custom:scripting/monoscript/fileName/UIPopup.cs: 21d861e68ed8f8959b0e7685aa079b84 -> 
-  custom:scripting/monoscript/fileName/SettingsSubElement.cs: 7ad46843ea150b5c14c5dc7ca92f6a5f -> 
-  custom:scripting/monoscript/fileName/AchievementLibrary.cs: c7d6c3bc4b32f4b12de42487e33c851c -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/LocalizationLanguageEditor.cs: 1c2c50b01d14aa83bbfbe2b2dbe2176e -> 
-  custom:scripting/monoscript/fileName/GraphicsManagerEditor.cs: 51d9c0181974a877898512b82c87d06e -> 
-  custom:scripting/monoscript/fileName/ImageFading.cs: 6d5b571ff97fa11f4ab55ba73878bcd0 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ScrollbarInputHandler.cs: 24b0c1f7fe60355f79af30fb16b5312a -> 
-  custom:scripting/monoscript/fileName/ChapterIdentifier.cs: 333f71e2d4562bbb4e82282562ad1afe -> 
-  custom:scripting/monoscript/fileName/PanelManager.cs: f7efbbbe7af316af5bf658f25608a1c8 -> 
-  custom:scripting/monoscript/fileName/InitHeatUI.cs: aa4af9d143a0a8d37e66c3297e731cad -> 
-  custom:scripting/monoscript/fileName/UIElementSound.cs: 9a9bc2177c7afbcd1869558e8a24e88f -> 
-  custom:scripting/monoscript/fileName/UIManagerTextEditor.cs: 44a40f6820d225a088725e57f7f672e8 -> 
-  custom:scripting/monoscript/fileName/HotkeyEvent.cs: 1dad8041de6fe4f2dc4c165f11cf7fd5 -> 
-  custom:scripting/monoscript/fileName/CreditsPreset.cs: fbc6669aedada1bd070e2f4f370b9823 -> 
-  custom:scripting/monoscript/fileName/AchievementItem.cs: 5e28f2f443f615a4268ed78d5cb07693 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SmoothScrollbar.cs: 5c206a3b1ccf0d887676911de656caaa -> 
-  custom:scripting/monoscript/fileName/ProgressBarEditor.cs: 988587bfab2a53535d7ef5e8c59f3cc5 -> 
-  custom:scripting/monoscript/fileName/GradientFilterEditor.cs: 5060b328c633e8433c05f587a1dec953 -> 
-  custom:scripting/monoscript/fileName/BoxContainerItem.cs: 6de7142a07d1f7384d37def58fcf7417 -> 
-  custom:scripting/monoscript/fileName/PanelManagerEditor.cs: c0d4d8b983e42040934a7bed4935a356 -> 
-  custom:scripting/monoscript/fileName/UIManagerFontChanger.cs: 3737924f1846cc42835de760186a1374 -> 
-  custom:scripting/monoscript/fileName/LayoutGroupFix.cs: 9a20dbd43da4c3173f15a697d5eea5a4 -> 
-  custom:scripting/monoscript/fileName/ShinyImage.cs: e47b248ebb59aeeeb8c5b9193c753224 -> 
-  custom:scripting/monoscript/fileName/UIManagerSplashScreen.cs: 6ca20a2abea7b8011d0af2c65c83cb34 -> 
-  custom:scripting/monoscript/fileName/GraphicsManager.cs: da3e5ee7da80c69de7248d21fe93617c -> 
-  custom:scripting/monoscript/fileName/PointerEvent.cs: f32941fefecc8782da3f7358929595dd -> 
-  custom:scripting/monoscript/fileName/UIManagerLogo.cs: 833e17669289f0fae5e9d5afd98f9843 -> 
-  custom:scripting/monoscript/fileName/PauseMenuManager.cs: ab63794b8d53df85b655ac0b7f176367 -> 
-  custom:scripting/monoscript/fileName/NotificationManager.cs: efac277e03e0ae2b368743b40584e426 -> 
-  custom:scripting/monoscript/fileName/ButtonManager.cs: c9a00a9e020a831a1408593ebc22fc2c -> 
-  custom:scripting/monoscript/fileName/SettingsElement.cs: c725e655a83f172bea923607fa50fc57 -> 
-  custom:scripting/monoscript/fileName/BoxButtonManager.cs: 4222d53452d9826486d96ed1ee93f551 -> 
-  custom:scripting/monoscript/fileName/ControllerManager.cs: d2dd4dec31a84ea69aa56fcb4a3fbb05 -> 
-  custom:scripting/monoscript/fileName/PanelButton.cs: 4a77765aa1702c5e59b62ab2873617ce -> 
-  custom:scripting/monoscript/fileName/CanvasGroupAnimator.cs: cc0222ac3b1b8d4a433fcdf364099a97 -> 
-  custom:scripting/monoscript/fileName/SettingsDescription.cs: 41293d727383a5d34a331924ceb3f64f -> 
-  custom:scripting/monoscript/fileName/LocalizationTableWindow.cs: 692dd1d5bc4a28a8838e448d605f0502 -> 
-  custom:scripting/monoscript/fileName/SliderInputHandler.cs: a636d65b39c5f96db620f620f362264c -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/InputNavigationLimiter.cs: c698113da9e23bdb33b25b1275a06233 -> 
-  custom:scripting/monoscript/fileName/HorizontalSelector.cs: 0687add2f0cba6450ac52801b231f092 -> 
-  custom:scripting/monoscript/fileName/ChapterManagerEditor.cs: ae485f977069f2fdbc106e5c8684fa09 -> 
-  custom:scripting/monoscript/fileName/HeatUIInternalTools.cs: 914d637e44f4f1fe206bfbfd79b98dbf -> 
-  custom:scripting/monoscript/fileName/UIManagerImage.cs: 1f39b60d3094e0d3be937b2f1293a55d -> 
-  custom:scripting/monoscript/fileName/UIGradientEditor.cs: 1fd6b39e442b2f8ee1dce83522163027 -> 
-  custom:scripting/monoscript/fileName/AchievementManagerEditor.cs: feb8ba604a374667d296573168904551 -> 
-  custom:scripting/monoscript/fileName/LocalizationManager.cs: 535d74d262864bf03f84bbd9a9add9f9 -> 
-  custom:scripting/monoscript/fileName/ModalWindowManagerEditor.cs: 537ac526a6fdc1477c84188ec414538d -> 
-  custom:scripting/monoscript/fileName/SocialsWidget.cs: 85e4a1b8c2022cbf5cb5c8bdb1a0a723 -> 
-  custom:scripting/monoscript/fileName/CreditsSectionItem.cs: cd1b6298ce9f4332d141900eb288a2e5 -> 
-  custom:scripting/monoscript/fileName/CreditsManagerEditor.cs: f4ddd7e4e3aa215ae67d5f54699be125 -> 
-  custom:scripting/monoscript/fileName/GradientFilter.cs: e93bdfe8c486db8a9c376d2a6ccf5d29 -> 
-  custom:scripting/monoscript/fileName/RectDepth.cs: 90f1f304ae0845c95ed4505fcb5c59c8 -> 
-  custom:scripting/monoscript/fileName/NewsSlider.cs: ba9abc68b9026f91149d1a3ef02584cf -> 
-  custom:scripting/monoscript/fileName/LocalizationManagerEditor.cs: c56a943eee43796c116df53b004a50f4 -> 
-  custom:scripting/monoscript/fileName/DropdownEditor.cs: 04dacfcb3abd62739e18c293699d7cb0 -> 7835943c2b1e7ab14674862cb91ce165
-  custom:scripting/monoscript/fileName/HorizontalSelectorEditor.cs: f9c65442da6e8b2f6cc5dc6ff736a86f -> 
-  custom:scripting/monoscript/fileName/UIManagerColorChanger.cs: d9bc0b320551158391f163a4a8e7b1d2 -> 
-  custom:scripting/monoscript/fileName/ImagePulse.cs: 36cfea2e320d6e0bded6dfc5517c0467 -> 
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Heat - Complete Modern UI/Scenes/Main Menu (Console).unity
+  artifactKey: Guid(ec6b235013c4d4244b281542eb40f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heat - Complete Modern UI/Scenes/Main Menu (Console).unity using Guid(ec6b235013c4d4244b281542eb40f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'a2ad68767cc2abfd7fadc2434e4a7d40') in 0.001150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
