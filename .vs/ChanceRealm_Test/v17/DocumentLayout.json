@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UnityProject\\ChanceRealm_Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F831CC8-3ADD-93DC-F109-72203E0CC9EA}|Assembly-CSharp.csproj|d:\\unityproject\\chancerealm_test\\assets\\heat - complete modern ui\\read me.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1F831CC8-3ADD-93DC-F109-72203E0CC9EA}|Assembly-CSharp.csproj|solutionrelative:assets\\heat - complete modern ui\\read me.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Read Me.txt",
+              "DocumentMoniker": "D:\\UnityProject\\ChanceRealm_Test\\Assets\\Heat - Complete Modern UI\\Read Me.txt",
+              "RelativeDocumentMoniker": "Assets\\Heat - Complete Modern UI\\Read Me.txt",
+              "ToolTip": "D:\\UnityProject\\ChanceRealm_Test\\Assets\\Heat - Complete Modern UI\\Read Me.txt",
+              "RelativeToolTip": "Assets\\Heat - Complete Modern UI\\Read Me.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-21T09:18:00.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
