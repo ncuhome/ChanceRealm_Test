@@ -1,3 +1,3 @@
-Hi there
-try to build test GameDesign before multiple in official program
-\\在正式项目之前，测试游戏机制
+作为一个项目管理失败的里程碑
+这个项目建立之初就是为了测试机制
+目前项目内各种数字资产结构混乱，已经没有办法继续开发
